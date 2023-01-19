@@ -144,3 +144,39 @@ internal class PokemonServiceTest {
     }
 }
 ```
+
+- Mock Mvc
+```Kotlin
+@WebMvcTest
+internal class PokemonControllerTest(
+    @Autowired
+    private val mvc: MockMvc
+){
+
+    @MockkBean
+    private lateinit var service: PokemonService
+
+    @Test fun `should perform a get call in app correctly`(){
+        //{"status":200,"message":null,"result":{"num":4,"name":"charmander","types":["fire"]}}
+
+        every { service.findPokemonByNum(4) } returns
+                PokemonDTO(num = 4, name = "charmander", types = setOf("fire"))
+
+        mvc.get("/pokemon/4")
+            .andDo { MockMvcResultHandlers.print() }
+            .andExpect { status { isOk() } }
+            .andExpect { jsonPath("\$.status") { value(200)} }
+            .andExpect { jsonPath("\$.message") { value(null)} }
+            .andExpect { jsonPath("\$.result.num") { value(4)} }
+            .andExpect { jsonPath("\$.result.name") { value("charmander")} }
+            .andExpect { jsonPath("\$.result.types.[0]") { value("fire")} }
+
+        verify(exactly = 1){
+            service.findPokemonByNum(4)
+        }
+    }
+
+
+
+}
+```

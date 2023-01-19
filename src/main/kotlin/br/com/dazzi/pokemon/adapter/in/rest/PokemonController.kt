@@ -12,9 +12,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/pokemon")
-class PokemonController(
-    private val pokemonInputPort: PokemonInputPort
-) {
+class PokemonController(private val pokemonInputPort: PokemonInputPort) {
 
     @GetMapping("/{num}", produces = [MediaType.APPLICATION_JSON_VALUE])
     fun findPokemonByNum(@PathVariable num: Int) : ResponseEntity<*> =
@@ -23,5 +21,6 @@ class PokemonController(
             message = null,
             result = pokemonInputPort.findPokemonByNum(num)
         ).let { ResponseEntity.ok(it) }
+
 
 }

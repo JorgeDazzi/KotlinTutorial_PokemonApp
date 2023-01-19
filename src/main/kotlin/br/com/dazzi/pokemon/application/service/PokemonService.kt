@@ -6,10 +6,7 @@ import br.com.dazzi.pokemon.application.port.out.PokemonOutputPort
 import org.springframework.stereotype.Service
 
 @Service
-class PokemonService(
-    private val pokemonOutputPort: PokemonOutputPort
-
-) : PokemonInputPort {
+class PokemonService(private val pokemonOutputPort: PokemonOutputPort) : PokemonInputPort {
 
     override fun findPokemonByNum(num: Int): PokemonDTO =
             pokemonOutputPort.findPokemonByNum(num)

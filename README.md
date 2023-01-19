@@ -81,3 +81,66 @@ class PokemonController(
 
 }
 ```
+
+### Unit Test
+
+```Kotlin
+class PokemonResponseTest{
+
+
+    @Test fun `should instantiate PokemonResponse correctly`(){
+        val poke = PokemonResponse<PokemonDTO>(
+            status = 888,
+            message = "Something",
+            result = null
+        )
+
+        poke.message shouldNotBe null
+        poke.message shouldBe "Something"
+
+        poke.result shouldBe null
+
+        poke.status shouldBe 888
+    }
+
+}
+```
+
+- Service 
+```Kotlin
+internal class PokemonServiceTest {
+
+    @MockK
+    private lateinit var pokemonOutputPort : PokemonOutputPort
+
+    private val pokemonService: PokemonService
+
+    init {
+        MockKAnnotations.init(this)
+        pokemonService = PokemonService(pokemonOutputPort)
+    }
+
+    @Test
+    fun `should find pokemon by ID correctly`() {
+        every { pokemonOutputPort.findPokemonByNum(4) } returns
+                PokemonDTO(
+                    num = 4,
+                    name = "charmander",
+                    types = setOf("fire")
+                )
+
+        pokemonService.findPokemonByNum(4).let {
+            it.name shouldBe "charmander"
+            it.num shouldBe 4
+            it.types shouldBe setOf("fire")
+        }
+
+        verify(exactly = 1){
+            pokemonOutputPort.findPokemonByNum(withArg {
+                it shouldBe 4
+            })
+        }
+
+    }
+}
+```

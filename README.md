@@ -1,10 +1,8 @@
-# Pokemon Kt - Kotlin Hands-On para o time
+# Pokemon Kt - Kotlin Hands-On para o time :ghost:
 
----
 
 ## Roteiro:
 
----
 
 - Application Data Class PokemonDTO
 ```Kotlin

@@ -1,9 +1,7 @@
 package br.com.dazzi.pokemon.adapter.`in`.rest.handler
 
 import br.com.dazzi.pokemon.adapter.`in`.rest.dto.PokemonResponse
-import feign.FeignException
 import feign.FeignException.NotFound
-import org.springframework.http.HttpRequest
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.ControllerAdvice

@@ -9,6 +9,28 @@ fun factorial(n: Int): Int =
     if(n <= 1) 1 else n * factorial(n - 1)
 ```
 
+- unitest
+```Kotlin
+internal class HaveFun{
+
+    companion object Args {
+       @JvmStatic
+       fun googDatz() : Stream<Arguments>{
+           retorn Stream.of(
+              Arguments.of(1, 2)
+              Arguments.of(2, 2)
+              Arguments.of(4, 24)
+        }
+    }
+    
+   @ParameterizedTest(name = "factorial {0} is {1}")
+   @MethodSource("goodData")
+  fun `should ruas factorial successfully`(num: Int, expected: Int){
+        factorial(num) shouldBe expected
+   }
+}
+```
+
 - Application Data Class PokemonDTO
 ```Kotlin
 data class PokemonDTO(

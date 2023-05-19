@@ -72,3 +72,14 @@ Out 2011 – Dez 2017<br>
 - Propor e implementar soluções
 - Encontrar pontos problemáticos
 - Identificar oportunidades de negócios 
+
+<br>
+
+### Educação:
+#### Universidade São Judas Tadeu  - Ciência da Computação
+2009 – 2012 :: 
+Bacharel em Ciência da Computação, Engenharia de Software e Metodologias
+
+#### FIAP Shift - AWS Academy - Cloud Developing
+Abr 2022 - Maio 2022 :: Desenvolvimento em Cloud com foco na indentificação das melhores práticas para criar aplicativos na nuvem AWS
+

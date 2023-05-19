@@ -7,8 +7,7 @@
   <div><a href="linkedin.com/in/jorgedazzi">:link: linkedin.com/in/jorgedazzi</a></div>
 </div>
 <div align="center">
-| :envelope: jorge.saturnino@itau-unibanco.com.br | :telephone_receiver: +55 11 98178 - 9401 | :link: linkedin.com/in/jorgedazzi |
-|-------------------------------------------------|------------------------------------------|-----------------------------------|
+ :envelope: jorge.saturnino@itau-unibanco.com.br | :telephone_receiver: +55 11 98178 - 9401 | :link: linkedin.com/in/jorgedazzi 
 </div>
 
 ---

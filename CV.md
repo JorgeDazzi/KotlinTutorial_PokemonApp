@@ -77,7 +77,7 @@ Out 2011 – Dez 2017<br>
 
 ### Educação:
 #### Universidade São Judas Tadeu  - Ciência da Computação
-2009 – 2012 :: 
+Jan 2009 – Jun 2012 :: 
 Bacharel em Ciência da Computação, Engenharia de Software e Metodologias
 
 #### FIAP Shift - AWS Academy - Cloud Developing

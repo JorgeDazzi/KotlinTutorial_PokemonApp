@@ -18,8 +18,6 @@ Detém um Bacharelado em Ciência da Computação pela Universidade São Judas T
 
 ### Experiência:
 
-<br>
-
 #### Itaú Unibanco - Back End Developer ( Java / Kotlin - Cloud Developer )
 Ago 2021 - Hoje<br>
 O Itaú é o maior banco privado do Brasil, focado em prestar os melhores serviços com o que há de melhor em tecnologia.
@@ -52,5 +50,25 @@ Abr 2020 - Jul 2021<br>
 - Comunicação com o cliente para entender as iniciativas de negócios e determinar os requisitos de software
 - Projeto de software analisado e revisado para garantir a conformidade técnica e melhorias arquitetônicas discutidas
 - Participei da jornada de adoção da nuvem AWS (nuvem privada para híbrida)
-- Implementei novo software nativo de nuvem na AWS (pilha Java / Kotlin)
+- Implementei novo software nativo de nuvem na AWS (Java / Kotlin)
 - Adoção do gRPC ProtoBuf3
+
+---
+#### Ubiqum Code - FullStack Developer
+Jun 2018 - Feb 2019<br>
+- Implementação RESTFul API utilizando Java 11, Spring Boot, DocumentDB, JUnit 5 & Pi Test
+- Implementação Mobile usando Android, React & Vue
+- Refinando histórias para sprints
+- Trabalhar como mentor / Gerente de projeto (Mentoria, assistência, revisões de código, preparação de tarefas de programação)
+
+Java / Spring boot / JavaScript / Android / React & Vue  / RESTFul / SOLID / Kotlin / Agile
+
+---
+#### GOL Linhas Aéreas - IT Business Analyst
+Out 2011 – Dez 2017<br>
+- Manter a saúde geral do relacionamento com o cliente
+- Realizar análise de viabilidade
+- Melhoria do processo
+- Propor e implementar soluções
+- Encontrar pontos problemáticos
+- Identificar oportunidades de negócios 

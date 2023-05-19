@@ -87,6 +87,9 @@ Abr 2022 - Maio 2022 :: Desenvolvimento em Cloud com foco na indentificação da
 
 ### Licenças e certificações
 
+#### FIAP Shift AWS Cloud Developing
+Maio 2022 - Certificado FIAP para AWS Cloud Developing 
+
 #### DTZ - German B1
 Jan 2020 :: telc. GmbH - The European Language Certificates
 

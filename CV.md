@@ -83,3 +83,15 @@ Bacharel em Ciência da Computação, Engenharia de Software e Metodologias
 #### FIAP Shift - AWS Academy - Cloud Developing
 Abr 2022 - Maio 2022 :: Desenvolvimento em Cloud com foco na indentificação das melhores práticas para criar aplicativos na nuvem AWS
 
+<br>
+
+### Licenças e certificações
+
+#### DTZ - German B1
+Jan 2020 :: telc. GmbH - The European Language Certificates
+
+#### First Certicate in English
+Jan 2018 :: Cambridge Assessment International Education
+
+#### German A1
+Jan 2017 :: ALPADIA Language Schools

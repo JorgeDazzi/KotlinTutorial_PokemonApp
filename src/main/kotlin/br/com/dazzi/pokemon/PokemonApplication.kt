@@ -1,5 +1,7 @@
 package br.com.dazzi.pokemon
 
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import org.springframework.cloud.openfeign.EnableFeignClients
@@ -9,5 +11,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients
 class PokemonApplication
 
 fun main(args: Array<String>) {
+
 	runApplication<PokemonApplication>(*args)
 }
